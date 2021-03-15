@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 body {
-  @apply bg-snow-storm-300;
-  @apply text-polar-night-300;
+  @apply bg-nord6;
+  @apply text-nord3;
 }
