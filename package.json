@@ -1,19 +1,28 @@
 {
-	"name": "julien-ducrot",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview"
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.1.1",
-		"@sveltejs/kit": "^1.27.3",
-		"svelte": "^4.2.2",
-		"tslib": "^2.6.2",
-		"typescript": "^5.2.2",
-		"vite": "^4.5.0"
-	},
-	"type": "module"
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@types/node": "20.11.17",
+    "@types/react": "18.2.55",
+    "@types/react-dom": "18.2.19",
+    "@vercel/analytics": "^1.1.3",
+    "@vercel/speed-insights": "^1.0.9",
+    "geist": "1.2.2",
+    "next": "canary",
+    "next-mdx-remote": "^4.4.1",
+    "postcss": "^8.4.35",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sugar-high": "^0.6.0",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.3.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "tailwindcss-animate": "^1.0.7"
+  }
 }

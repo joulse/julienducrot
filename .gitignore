@@ -1,21 +1,134 @@
-.DS_Store
+# Dependencies
 node_modules
-dist
-test-results/
-package-lock.json
-yarn.lock
-vite.config.js.timestamp-*
-/packages/create-svelte/template/CHANGELOG.md
-/packages/package/test/**/package
-/documentation/types.js
-.env
-.vercel_build_output
-.svelte-kit
-.cloudflare
-.pnpm-debug.log
-.netlify
-.turbo
+.pnp
+.pnp.js
+
+# Testing
+coverage
+
+# Next.js
+.next/
+out/
+build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+
+# Vercel
 .vercel
-.test-tmp
-symlink-from
-.idea/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Turborepo
+.turbo
+
+# pnpm
+.pnpm-store/
+
+# ESLint
+.eslintcache
+
+# Editor directories and files
+.idea
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Temporary folders
+tmp/
+temp/
+
+# Expo
+.expo/
+web-build/
+dist/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Tailwind CSS
+.tailwind/
+
+# Next.js custom server
+server/
+
+# PWA files
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
